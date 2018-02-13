@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{title}}</title>
+    <!--jquery-->
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+            crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+    <!--main custom stylesheet-->
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+
+
+</head>
+<body>
+<div class="body-wrapper">
+    {{!--NAVBAR--}}
+    <div class="container-fluid">
+        <nav class="navbar navbar-inverse navbar-fixed-top">{{!-navbar-default changed to navbar-inverse (black}}
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li {{# if home}} class="active" {{/if}}><a class="navbar-brand" href="/">Storage UI</a></li>
+                        {{!--<li{{# if home}} class="active" {{/if}}><a href="/">Home</a></li>--}}
+                        <li{{# if search}} class="active" {{/if}}><a href="/search">Search</a></li>
+                        {{# if loggedin}}
+                            <li class="dropdown{{# if add}} active{{/if}}">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="/add">Add<span
+                                        class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/add/article">Article</a></li>
+                                    <li><a href="/add/additionaldata">Additional Data</a></li>
+                                </ul>
+                            </li>
+                            {{!--<li class="dropdown{{# if add}} active{{/if}}"><a href="/add/article">Add</a></li>--}}
+                            <li{{# if modify}} class="active" {{/if}}><a href="/modify">Modify</a></li>
+                        {{/if}}
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        {{# if loggedin}}
+                            <li><a href="/login/logout"><span class="glyphicon glyphicon-log-in"></span>Logout</a></li>
+                        {{else}}
+                            <li{{# if register}} class="active" {{/if}}><a href="/register"><span
+                                    class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                            <li{{# if login}} class="active" {{/if}}><a href="/login"><span
+                                    class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        {{/if}}
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    {{!--BODY--}}
+    <div class="container-fluid" class="content" style="align:center;">
+        {{{body}}}
+    </div>
+
+</div>
+{{!--<div class="footer">--}}
+{{!--<div class="container text-center">--}}
+
+{{!--</div>--}}
+{{!--</div>--}}
+<footer class="footer">
+    <div class="row">
+        <div class="col-lg-12">
+            <ul class="nav nav-pills nav-justified">
+                <li>© 2018 Ivo Schüepp @ Information Science @ University of Konstanz</li>
+                <li>License: MIT</li>
+                <li><a href="https://github.com/iivooo/ba_storage">Visit on github.com</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+<footer class="footer">
+
+    <!-- Tagging used from http://formvalidation.io/examples/bootstrap-tagsinput/-->
+    {{!--<link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap.tagsinput/0.4.2/bootstrap-tagsinput.css" />--}}
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.css"/>
+    {{!--<script src="//cdn.jsdelivr.net/bootstrap.tagsinput/0.4.2/bootstrap-tagsinput.min.js"></script>--}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.min.js"></script>
+    {{!--<script  src="/javascripts/tagging.js"/>--}}
+
+</footer>
+</html>

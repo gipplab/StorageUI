@@ -1,0 +1,156 @@
+<div class="container-fluid">
+
+    {{!--search fileds--}}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <form class="form-horizontal" role="form" method="post" action="/search/handle/">
+                    <div class="form-group">
+                        <label for="filter">Filter by</label>
+                        <select class="form-control" name="selection">
+                            <option value="0" selected>Articles</option>
+                            <option value="1">Datasets</option>
+                            <option value="2">Author</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="contain">Contains the words</label>
+                        <input class="form-control" type="text" name="searchtxt"
+                               placeholder='If left empty, shows all...'>
+                    </div>
+                    <button type="submit" class="btn btn-info glyphicon glyphicon-search"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    {{!--results--}}
+    <div class="container">
+        {{# if results}}
+            <table class="table table-hover">
+                <thead>
+                <th></th>
+                <th>TITLE</th>
+                <th>TAGS</th>
+                <th>AUTHORS</th>
+                </thead>
+
+                {{# each results }}
+                    <tbody>
+                    <tr data-toggle="collapse" data-target="#accordion{{@index}}" class="clickable">
+                        <td><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span></button></td>
+                        <td>{{this.title}}</td>
+                        <td>{{this.tags}}</td>
+                        <td>{{this.authors}}</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <div id="accordion{{@index}}" class="collapse">
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">Abstract</div>
+                                    <div class="panel-body">
+                                        {{this.abstract}}
+                                    </div>
+
+
+                                    <div class="panel-heading">IPFS Address</div>
+                                    <div class="panel-body">
+                                        <a href="https://ipfs.io/ipfs/{{this.ipfsAddress}}" target="_blank">https://ipfs.io/ipfs/{{this.ipfsAddress}}</a>
+                                    </div>
+
+                                    <div class="panel-heading">Download</div>
+                                    <div class="panel-body">
+                                        <a class="btn btn-info" role="button"
+                                           href="http://192.52.3.143:3000/search/download/{{this.ipfsAddress}}/{{this.metadata.originalName}}">
+                                            Download original File
+                                        </a>
+                                        {{# if revisions}}
+                                            {{# each revisions}}
+                                                <a class="btn btn-info" role="button"
+                                                   href="http://192.52.3.143:3000/search/download/{{this}}/rev_{{@index}}_{{../metadata.originalName}}">
+                                                    Download revision {{@index}}
+                                                </a>
+                                            {{/each}}
+                                        {{/if}}
+                                    </div>
+
+                                    <div class="panel-heading">Metadata</div>
+                                    <div class="panel-body">
+                                        <table class="table">
+                                            <tr>
+                                                <th>Original Name:</th>
+                                                <td>{{this.metadata.originalName}}</td>
+                                                <th colspan="2"><a target="_blank"
+                                                                   href="https://originstamp.org/s/{{this.metadata.sha256}}">
+                                                    Link to originstamp.org</a> </th>
+                                            </tr>
+                                            <tr>
+                                                <th>SHA-256:</th>
+                                                <td colspan="3">{{this.metadata.sha256}}</td>
+                                                <th></th>
+                                                <td></td>
+                                            </tr>
+
+                                        </table>
+                                    </div>
+
+                                    {{!--dataasets--}}
+                                    {{# if this.filesets}}
+                                        <div class="panel-heading">Datasets</div>
+                                        <div class="panel-body">
+                                            <table class="table table-hover">
+                                                <thead>
+                                                <th></th>
+                                                <th>TITLE</th>
+                                                <th>TAGS</th>
+                                                <th>Download</th>
+                                                </thead>
+                                                {{# each this.filesets}}
+                                                    <tbody>
+                                                    <tr data-toggle="collapse" data-target="#accordionsets{{@index}}"
+                                                        class="clickable">
+                                                        <td><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span></button></td>
+                                                        <td>{{this.title}}</td>
+                                                        <td>{{this.tags}}</td>
+                                                        <td>
+                                                            <a class="btn btn-info" role="button"
+                                                               href="http://192.52.3.143:3000/search/download/{{this.ipfsAddress}}/{{this.metadata.originalName}}">
+                                                                Download Dataset
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <td colspan="3">
+                                                        <div id="accordionsets{{@index}}" class="collapse">
+                                                            <table class="table">
+                                                                <tr>
+                                                                    <th>Abstract:</th>
+                                                                    <td>{{this.abstract}}</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Original Name:</th>
+                                                                    <td>{{this.metadata.originalName}}</td>
+                                                                </tr>
+                                                            </table>
+
+                                                        </div>
+                                                    </td>
+                                                    </tbody>
+                                                {{/each}}
+                                            </table>
+                                        </div>
+                                    {{/if}}
+
+
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                {{/each}}
+            </table>
+        {{/if}}
+    </div>
+
+</div>

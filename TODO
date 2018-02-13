@@ -1,0 +1,39 @@
+17.01.
+------
+- See cryptSubmit database
+    - title - check if exists ->
+    - abstract
+    - keywords -> auto suggestions -> kästchen welche man wieder löschen kann
+    - associated datasets
+        -title
+        -keywords
+        -description
+- Do add layout
+- install orbit/ipfs
+- find JSON manipulation framework
+- Do post requests and route to orbit
+
+22.01.
+-------
+do the cluster on 3 machines
+    1. storageUI
+        - check if the jsipfs also takes incoming requests/ else if js-api is working with orbit
+    2. cryptSubmit
+    3. backup machine
+
+
+
+curl 192.52.3.209:9094/pins/QmPkfpzce7hseYtXoubYoycj5cok8t9mrJNdBzDW7QH5vg
+
+
+
+30.01.
+------
+TODO: article revisions?
+TODO: show datasets to articles
+TODO: adjust search to show all articles... or give input hints
+add searching by previous data. revision? like previous name, abstract etc.
+originstamp status at articles?
+
+10.15 : bwcloud down: wollte login bei add und modify fertig machen... überprüfen obs geht
+                        anschließend home site

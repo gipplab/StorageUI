@@ -1,0 +1,33 @@
+{
+  "name": "ba-storage",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "~1.18.2",
+    "bootstrap": "^4.0.0-beta.3",
+    "connect-mongo": "^1.3.2",
+    "cookie-parser": "~1.4.3",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "express-session": "^1.15.2",
+    "express-validator": "^4.3.0",
+    "fs": "0.0.1-security",
+    "fuse.js": "^3.2.0",
+    "hbs": "~4.0.1",
+    "ipfs": "^0.27.7",
+    "json-templater": "^1.2.0",
+    "less-middleware": "~2.2.1",
+    "mongoose": "^4.9.8",
+    "morgan": "~1.9.0",
+    "multer": "^1.3.0",
+    "nodemon": "^1.11.0",
+    "orbit-db": "^0.19.2",
+    "serve-favicon": "~2.4.5",
+    "sha256": "^0.2.0"
+  }
+}

@@ -1,0 +1,55 @@
+
+®¦Add-in Express Registrator Log File: 09/13/2017 19:22:36
+
+Installation directory: C:\Program Files (x86)\Docear4Word\
+Registrator version: 6.4.3056.0
+Operating System: Microsoft Professional (build 9200), 64-bit
+Process Owner: Administrator
+Command Line: "C:\Program Files (x86)\Docear4Word\adxregistrator.exe" /install="Docear4Word.dll" /privileges=admin
+Run 'As Administrator': Yes
+Process Elevated: Yes
+Integrity Level: High
+UAC (User Account Control): On
+--------------------------------------------------------------
+19:22:36 0216 Starting the add-in registration process.
+19:22:36 0216 Loading mscoree.dll
+19:22:36 0216 Success.
+19:22:36 0216 .NET Framework installation directory: 
+19:22:36 0216 The latest version of .NET Framework: 'v4.0.30319'
+19:22:36 0216 Loading CLR: v4.0.30319.
+19:22:36 0216 Calling CLRCreateInstance method.
+19:22:36 0216 Success.
+19:22:36 0216 Calling GetRuntime method.
+19:22:36 0216 Success.
+19:22:36 0216 Calling GetInterface method.
+19:22:36 0216 Calling GetInterface method for the CorRuntimeHost interface.
+19:22:36 0216 Success.
+19:22:36 0216 Starting CLR...
+19:22:36 0216 Success.
+19:22:36 0216 The CLR v4.0.30319 has been initialized successfully.
+19:22:36 0216 Creating a new domain setup.
+19:22:36 0216 Success.
+19:22:36 0216 Getting the add-in directory.
+19:22:36 0216 Success. The directory is 'C:\Program Files (x86)\Docear4Word\'
+19:22:36 0216 The 'shadow copy' is disabled.
+19:22:36 0216 Creating a new application domain.
+19:22:36 0216 Success.
+19:22:36 0216 Getting the base directory for the domain.
+19:22:36 0216 Success. The directory is 'C:\Program Files (x86)\Docear4Word\'.
+19:22:36 0216 Searching for the Add-in Express core library.
+19:22:36 0216 Success. The 'AddinExpress.MSO.2005.dll' file is found.
+19:22:36 0216 Creating an instance of the 'AddinExpress.Deployment.ADXRegistrator' class.
+19:22:36 0216 Assembly identity is 'AddinExpress.MSO.2005'.
+19:22:36 0216 Success.
+19:22:36 0216 Unwrapping the instance of the 'AddinExpress.Deployment.ADXRegistrator' class.
+19:22:36 0216 Success.
+19:22:36 0216 Calling the managed registration procedure.
+19:22:36 0992 Connecting to the application domain of the Add-in Express loader.
+19:22:36 0992 Success.
+19:22:36 0992 Loading the 'docear4word.dll' assembly.
+19:22:36 0992 Success.
+19:22:36 0992 Registering the 'docear4word.dll' assembly (administrator).
+19:22:37 0992 The ' docear4word.dll' assembly has been registered successfully.
+19:22:37 0216 Success.
+19:22:37 0216 The add-in registration process is completed with HRESULT = 0.
+¦

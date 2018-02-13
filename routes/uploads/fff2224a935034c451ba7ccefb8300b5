@@ -1,0 +1,19 @@
+CryptoSubmit is a full automated timestamping framework, that makes use of OriginStamp. OriginStamp is a free trusted timestamping solution based on the Blockchain of Bitcoin.
+
+CryptoSubmit tracks the legal origin of digital contant, such as [...]. These among are digital publications or event events and system interactions like user logins and comments.
+
+[...], since most work is done by the OriginStamp-API.
+
+Trusted timestamping keeps track of creation or modifying time of a digital document, thus prooving that a specific document has been existing in a specific form a certain  point in time to now.
+
+For example, if you have written an article [...]
+
+As soon as you timestamp it, [...]
+
+(Das 'legal' würde ich anders formulieren. Es würde ja bedeuten, dass die Technik mit Sicherheit vor Gericht als Beweis anerkannt wird. Dazu gibt es weder Gesetzgebung noch Urteile.)
+
+(Ob jemand der Urheber der Datei ist, könnte er nicht mit endgültiger Sicherheit nachweisen. Vielleicht hat er es nur als erster getimestamped. Was man aber eher nachweisen könnte, ist dass der andere nicht der Urheber der Datei sein kann, weil es schon vor seiner Publikation existierte. In ya face!)
+
+Der Satz ist zwei mal sehr ähnlich enthalten:
+" you can download a zip-file with an offline verifier along with the original timestamped text file. The offline verifier is based on HTML and JavaScript and describes how to manually retrace the address generation for the timestamped text in the bitcoin blockchain"
+Beim zweiten mal reicht ein Verweis darauf, dass es genauso gemacht wird.

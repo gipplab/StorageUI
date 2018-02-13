@@ -1,0 +1,5 @@
+{
+  "magic_key_{{magic}}": {
+    "key": "interpolation is nice {{value}}"
+  }
+}

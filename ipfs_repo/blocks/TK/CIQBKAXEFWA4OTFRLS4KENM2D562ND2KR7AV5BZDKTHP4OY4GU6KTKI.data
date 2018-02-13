@@ -1,0 +1,53 @@
+
+Âº#!/usr/bin/env bash
+##
+# Script for setting up IPFS along with needed stuff for cryptSubmit
+##
+machine_name = 'storageUI';
+
+apt-get update;
+#apt-get install -y apache2 libapache2-mod-php5 php5 php5-mysql php5-curl
+#sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password 1234'
+#sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password 1234'
+#sudo apt-get -y install mysql-server
+
+#must be added to avoid undfined host
+#sudo echo '127.0.0.1 '$machine_name >> /etc/hosts
+
+#need for native compiled node.js packages
+sudo apt-get -y install build-essential;
+sudo apt-get -y install unzip;
+
+#install git
+apt-get install -y git;
+git config --global user.email "ivoschueepp@gmail.com";
+git config --global user.name "iivooo";
+
+#node ipfs, orbit-db (both w. cli's)
+sudo curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -;
+sudo apt-get install -y nodejs;
+
+
+#add work directories to userspace
+mkdir /var/www/html;
+ln -fs /var/www/html /home/$USER/html; #try if that works
+ln -fs /var/www /home/$USER/html;
+
+
+
+#add useful aliases to bashrc
+
+#
+
+
+#INSTALL THEM MANUALLY!
+# sudo npm install ipfs --save --unsave-perm -g; #-global for CLI
+#
+# npm install -g --unsave-perm orbit-db;
+# npm install -g --unsave-perm orbit-db-cli;
+
+# service apache2 start
+
+# ipfs-cluster-service --bootstrap /ip4/95.208.211.105/tcp/49271/ipfs/Qmc2a4YzndCxLKc4VPsnoGKwsxggqNyLhHy3DntTG6JqPv &
+# ipfs-cluster-service --bootstrap /ip4/192.168.33.10/tcp/9096/ipfs/QmYSW4W2hxZCPvFm5a7ZYFXJdaeynBRJaBZTFimY6QSap7 &
+º

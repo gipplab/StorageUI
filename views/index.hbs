@@ -1,0 +1,176 @@
+<div class="container-fluid">
+    <div class="container">
+        <h3> Welcome to Storage UI</h3>
+        <h4>Paper storage system upon IPFS and decentralized trusted timestamping</h4>
+        <hr>
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                            What is Storage UI?</a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        This is a dataset storage system prototype based on IPFS (Interplanetary File System), which is
+                        a decentralized peer-to-peer storage solution and OriginStamp, a decentralized trusted
+                        timestamping via OriginStamp (originstamp.org) service.
+                        Storage was build to support permanent and immutable data storage to provide long-term
+                        availability.
+                        A storage system having those two qualities is beneficial for usage in the scientific community,
+                        whether by individuals or by research institutions and research facilities. Scientific data
+                        which is fundamentally important for scientific work could be stored to be verified at later
+                        times without being exposed the danger of loss, deletion or manipulation, thus making the data
+                        provable and verifiable at any later point.
+
+
+
+                        {{!--<p>--}}
+                        {{!--This is an (academic) article and dataset storage system prototype based on the <a--}}
+                        {{!--href="https://ipfs.io/">Interplanetary File System</a> (IPFS) and--}}
+                        {{!--decentralized trusted timestamping with <a href="https://app.originstamp.org/home">--}}
+                        {{!--originstamp.org</a>. It should support permanent and immutable data storage and help to resolve--}}
+                        {{!--priority claims.--}}
+                        {{!--</p>--}}
+                        {{!--<p>--}}
+                        {{!--IPFS is a peer-to-peer decentralized data distribution and storage protocol. Any computer--}}
+                        {{!--with an internet connection can be part of the IPFS network.--}}
+                        {{!--For example if someone is hosting a website on IPFS, anyone who accesses it is saving (at--}}
+                        {{!--least caching) the website, and therefore becomes an accessible host too.--}}
+                        {{!--In the background of this website, there is a cluster of IPFS nodes, which store the data--}}
+                        {{!--permanently distributed with a replication factor. The benefit of this cluster is that any--}}
+                        {{!--computer--}}
+                        {{!--can extend this cluster, and therefore one can build a large distributed and decentralized--}}
+                        {{!--storage solution.--}}
+                        {{!--There is no single point of failure, data can only disappear if all IPFS nodes--}}
+                        {{!--finally delete the data and ideally all nodes have different people in control.--}}
+                        {{!--Files uploaded to IPFS are content addressed and therefore immutable.--}}
+                        {{!--The underlying database which holds metadata to the files stored on IPFS also works over--}}
+                        {{!--IPFS.--}}
+                        {{!--This means every participant holds a copy of the database. If one node adds data, this--}}
+                        {{!--message--}}
+                        {{!--is immediately published to the other nodes.--}}
+                        {{!--</p>--}}
+                        {{!--<p>--}}
+                        {{!--The integrated fully automatized decentralized trusted timestamping service originstamp.org--}}
+                        {{!--helps to resolve priority claims,--}}
+                        {{!--in case of plagiarism. It can proof that a piece of data existed at a certain time.--}}
+                        {{!--</p>--}}
+
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                            What is IPFS?</a>
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p>
+                            IPFS is a peer-to-peer decentralized data distribution and storage protocol. Any computer
+                            connected to the internet can participate as a peer in the IPFS network. If someone is
+                            hosting a website on the IPFS network, then any client accessing this website becomes an
+                            accessible host for other clients, too. The backbone of this website is a cluster of IPFS
+                            nodes, which stores data permanently, immutable and distributed with a defined replication
+                            factor. The benefit of this cluster is that any computer can extend this cluster, and
+                            therefore one can build a large distributed and decentralized storage solution. The
+                            underlying database holds meta-data of the files stored on IPFS. This means every
+                            participant holds a copy of the database. If one node adds data, this message is immediately
+                            published to other nodes, until it travels through the whole network.
+                        </p>
+
+                            {{!--Searching for data is for everyone. To add or modify data please sign up. Data once uploaded
+                            can't be changed or deleted, only the metadata can be adjusted or the data can be extended
+                            with revisions or supplementary data.
+                            For the future: It is planned to allow deletions, but only if the nodes vote for.
+                            --}}
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                            What is originstamp.org?</a>
+                    </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Originstamp is a decentralized trusted timestamping service, which makes use of the Bitcoin blockchain.
+                        A trusted timestamp verfies that a files content existed at a certain time. Thus its important to
+                        keep the timestamped file unmodified. The content addressed files in IPFS supports them, since they are not alterable.
+                        Decentralized trusted timestamping uses a unique fingerprint of the data (hash) and submits that to the blockchain. Once the fingerprint
+                        is in the blockchain, it can't be manipulated and is tamperproof.
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                            How is my data protected from unauthorized access?</a>
+                    </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        On this platform uploaded data is accessible to everyone who knows the contents IPFS address.
+                        This platform is mainly thought to be an persistent archive for scientific contents and shall
+                        make content available to the public.
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                            What happens, if this website doesn't exist in the future? Is my data lost?</a>
+                    </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        This website is part of the Storage UI API, so any (server-) node who is running the cluster also runs this website.
+                        All nodes share the same database and the contents are distributed on all the nodes with a minimum replication factor
+                        of 3.
+                        This means, if you have your IPFS contents address (link) you have anytime access to your content.
+                        In future you don't even need special tools to access an IPFS link. Mozilla Firefox for instance already built in the protocol by default.
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                            How to use this?</a>
+                    </h4>
+                </div>
+                <div id="collapse6" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        The site is self-explainatory. Please make sure that you login to use the content upload and modify functions.
+                        Please keep in mind that content uploaded isn't easily deleteable. This will be a future feature that content is deleteable by a voting process of the nodes.
+                        Only metadata of uploaded files can be changed.
+                        {{!--TODO: diagramm machen--}}
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+{{!--TODO: Footer
+------
+Copyright, Github-Link, Verantwortliche etc.--}}

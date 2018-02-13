@@ -1,0 +1,828 @@
+
+����rUpdate>d__2.MoveNext()
+2018-01-21 09:41:59> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-21 09:42:00> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-21 09:42:00> FileDownloader: Downloading url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64
+2018-01-21 09:42:00> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-21 09:42:00> CheckForUpdateImpl: Download resulted in WebException (returning blank release list): System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+2018-01-21 09:42:00> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-21 09:42:00> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-21 09:42:00> FileDownloader: Downloading url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64
+2018-01-21 09:42:00> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-21 09:42:00> CheckForUpdateImpl: Download resulted in WebException (returning blank release list): System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+2018-01-21 09:42:00> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-21 09:42:00> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-21 09:42:00> FileDownloader: Downloading url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64
+2018-01-21 09:42:00> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-21 09:42:00> CheckForUpdateImpl: Download resulted in WebException (returning blank release list): System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+2018-01-21 09:42:00> Unhandled exception: System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Update.Program.<Download>d__7.MoveNext()
+   --- Ende der internen Ausnahmestapelüberwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   bei System.Threading.Tasks.Task`1.get_Result()
+   bei Squirrel.Update.Program.executeCommandLine(String[] args)
+   bei Squirrel.Update.Program.main(String[] args)
+---> (Interne Ausnahme #0) System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Update.Program.<Download>d__7.MoveNext()<---
+
+2018-01-22 02:58:50> Program: Starting Squirrel Updater: --download https://atom.io/api/updates-x64?version=1.23.3
+2018-01-22 02:58:50> Program: Fetching update information, downloading from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-22 02:58:50> CheckForUpdateImpl: Using existing staging user ID: cd18b8df-a5be-56bc-8c35-b30fb5b3742f
+2018-01-22 02:58:51> CheckForUpdateImpl: Downloading RELEASES file from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-22 02:58:51> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-22 03:12:49> Program: Starting Squirrel Updater: --download https://atom.io/api/updates-x64?version=1.23.3
+2018-01-22 03:12:49> Program: Fetching update information, downloading from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-22 03:12:49> CheckForUpdateImpl: Using existing staging user ID: cd18b8df-a5be-56bc-8c35-b30fb5b3742f
+2018-01-22 03:12:49> CheckForUpdateImpl: Downloading RELEASES file from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-22 03:12:49> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-22 07:12:49> Program: Starting Squirrel Updater: --download https://atom.io/api/updates-x64?version=1.23.3
+2018-01-22 07:12:49> Program: Fetching update information, downloading from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-22 07:12:49> CheckForUpdateImpl: Using existing staging user ID: cd18b8df-a5be-56bc-8c35-b30fb5b3742f
+2018-01-22 07:12:49> CheckForUpdateImpl: Downloading RELEASES file from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-22 07:12:49> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-22 16:56:32> Program: Starting Squirrel Updater: --download https://atom.io/api/updates-x64?version=1.23.3
+2018-01-22 16:56:32> Program: Fetching update information, downloading from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-22 16:56:34> CheckForUpdateImpl: Using existing staging user ID: cd18b8df-a5be-56bc-8c35-b30fb5b3742f
+2018-01-22 16:56:34> CheckForUpdateImpl: Downloading RELEASES file from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-22 16:56:34> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-22 16:56:36> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-22 16:56:36> FileDownloader: Downloading url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64
+2018-01-22 16:56:36> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-22 16:56:36> CheckForUpdateImpl: Download resulted in WebException (returning blank release list): System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+2018-01-22 16:56:36> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-22 16:56:36> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-22 16:56:36> FileDownloader: Downloading url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64
+2018-01-22 16:56:36> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-22 16:56:36> CheckForUpdateImpl: Download resulted in WebException (returning blank release list): System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+2018-01-22 16:56:36> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-22 16:56:36> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-22 16:56:36> FileDownloader: Downloading url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64
+2018-01-22 16:56:36> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-22 16:56:36> CheckForUpdateImpl: Download resulted in WebException (returning blank release list): System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+2018-01-22 16:56:36> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-22 16:56:36> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-22 16:56:36> FileDownloader: Downloading url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64
+2018-01-22 16:56:36> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-22 16:56:36> CheckForUpdateImpl: Download resulted in WebException (returning blank release list): System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+2018-01-22 16:56:36> Unhandled exception: System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Update.Program.<Download>d__7.MoveNext()
+   --- Ende der internen Ausnahmestapelüberwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   bei System.Threading.Tasks.Task`1.get_Result()
+   bei Squirrel.Update.Program.executeCommandLine(String[] args)
+   bei Squirrel.Update.Program.main(String[] args)
+---> (Interne Ausnahme #0) System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Update.Program.<Download>d__7.MoveNext()<---
+
+2018-01-22 20:56:32> Program: Starting Squirrel Updater: --download https://atom.io/api/updates-x64?version=1.23.3
+2018-01-22 20:56:32> Program: Fetching update information, downloading from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-22 20:56:32> CheckForUpdateImpl: Using existing staging user ID: cd18b8df-a5be-56bc-8c35-b30fb5b3742f
+2018-01-22 20:56:32> CheckForUpdateImpl: Downloading RELEASES file from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-22 20:56:32> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-23 00:56:32> Program: Starting Squirrel Updater: --download https://atom.io/api/updates-x64?version=1.23.3
+2018-01-23 00:56:32> Program: Fetching update information, downloading from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-23 00:56:32> CheckForUpdateImpl: Using existing staging user ID: cd18b8df-a5be-56bc-8c35-b30fb5b3742f
+2018-01-23 00:56:32> CheckForUpdateImpl: Downloading RELEASES file from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-23 00:56:33> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-23 04:56:32> Program: Starting Squirrel Updater: --download https://atom.io/api/updates-x64?version=1.23.3
+2018-01-23 04:56:32> Program: Fetching update information, downloading from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-23 04:56:32> CheckForUpdateImpl: Using existing staging user ID: cd18b8df-a5be-56bc-8c35-b30fb5b3742f
+2018-01-23 04:56:33> CheckForUpdateImpl: Downloading RELEASES file from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-23 04:56:33> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-23 08:56:32> Program: Starting Squirrel Updater: --download https://atom.io/api/updates-x64?version=1.23.3
+2018-01-23 08:56:33> Program: Fetching update information, downloading from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-23 08:56:33> CheckForUpdateImpl: Using existing staging user ID: cd18b8df-a5be-56bc-8c35-b30fb5b3742f
+2018-01-23 08:56:33> CheckForUpdateImpl: Downloading RELEASES file from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-23 08:56:33> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-23 12:56:33> Program: Starting Squirrel Updater: --download https://atom.io/api/updates-x64?version=1.23.3
+2018-01-23 12:56:33> Program: Fetching update information, downloading from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-23 12:56:33> CheckForUpdateImpl: Using existing staging user ID: cd18b8df-a5be-56bc-8c35-b30fb5b3742f
+2018-01-23 12:56:33> CheckForUpdateImpl: Downloading RELEASES file from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-23 12:56:33> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-26 17:32:52> Program: Starting Squirrel Updater: --download https://atom.io/api/updates-x64?version=1.23.3
+2018-01-26 17:32:52> Program: Fetching update information, downloading from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-26 17:32:52> CheckForUpdateImpl: Using existing staging user ID: cd18b8df-a5be-56bc-8c35-b30fb5b3742f
+2018-01-26 17:32:52> CheckForUpdateImpl: Downloading RELEASES file from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-26 17:32:52> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-29 12:56:02> Program: Starting Squirrel Updater: --download https://atom.io/api/updates-x64?version=1.23.3
+2018-01-29 12:56:02> Program: Fetching update information, downloading from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-29 12:56:02> CheckForUpdateImpl: Using existing staging user ID: cd18b8df-a5be-56bc-8c35-b30fb5b3742f
+2018-01-29 12:56:02> CheckForUpdateImpl: Downloading RELEASES file from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-29 12:56:03> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-29 12:56:40> Program: Starting Squirrel Updater: --download https://atom.io/api/updates-x64?version=1.23.3
+2018-01-29 12:56:40> Program: Fetching update information, downloading from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-29 12:56:40> CheckForUpdateImpl: Using existing staging user ID: cd18b8df-a5be-56bc-8c35-b30fb5b3742f
+2018-01-29 12:56:40> CheckForUpdateImpl: Downloading RELEASES file from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-29 12:56:40> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-29 21:25:33> Program: Starting Squirrel Updater: --download https://atom.io/api/updates-x64?version=1.23.3
+2018-01-29 21:25:33> Program: Fetching update information, downloading from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-29 21:25:33> CheckForUpdateImpl: Using existing staging user ID: cd18b8df-a5be-56bc-8c35-b30fb5b3742f
+2018-01-29 21:25:33> CheckForUpdateImpl: Downloading RELEASES file from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-29 21:25:33> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-30 02:23:11> Program: Starting Squirrel Updater: --download https://atom.io/api/updates-x64?version=1.23.3
+2018-01-30 02:23:11> Program: Fetching update information, downloading from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-30 02:23:14> CheckForUpdateImpl: Using existing staging user ID: cd18b8df-a5be-56bc-8c35-b30fb5b3742f
+2018-01-30 02:23:14> CheckForUpdateImpl: Downloading RELEASES file from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-30 02:23:15> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-30 02:23:17> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-30 02:23:17> FileDownloader: Downloading url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64
+2018-01-30 02:23:17> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-30 02:23:17> CheckForUpdateImpl: Download resulted in WebException (returning blank release list): System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+2018-01-30 02:23:17> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-30 02:23:17> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-30 02:23:17> FileDownloader: Downloading url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64
+2018-01-30 02:23:17> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-30 02:23:17> CheckForUpdateImpl: Download resulted in WebException (returning blank release list): System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+2018-01-30 02:23:17> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-30 02:23:17> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-30 02:23:17> FileDownloader: Downloading url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64
+2018-01-30 02:23:17> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-30 02:23:17> CheckForUpdateImpl: Download resulted in WebException (returning blank release list): System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+2018-01-30 02:23:17> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-30 02:23:17> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-30 02:23:17> FileDownloader: Downloading url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64
+2018-01-30 02:23:17> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-30 02:23:17> CheckForUpdateImpl: Download resulted in WebException (returning blank release list): System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+2018-01-30 02:23:17> Unhandled exception: System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Update.Program.<Download>d__7.MoveNext()
+   --- Ende der internen Ausnahmestapelüberwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   bei System.Threading.Tasks.Task`1.get_Result()
+   bei Squirrel.Update.Program.executeCommandLine(String[] args)
+   bei Squirrel.Update.Program.main(String[] args)
+---> (Interne Ausnahme #0) System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Update.Program.<Download>d__7.MoveNext()<---
+
+2018-01-30 09:28:30> Program: Starting Squirrel Updater: --download https://atom.io/api/updates-x64?version=1.23.3
+2018-01-30 09:28:30> Program: Fetching update information, downloading from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-30 09:28:31> CheckForUpdateImpl: Using existing staging user ID: cd18b8df-a5be-56bc-8c35-b30fb5b3742f
+2018-01-30 09:28:31> CheckForUpdateImpl: Downloading RELEASES file from https://atom.io/api/updates-x64?version=1.23.3
+2018-01-30 09:28:31> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-30 09:28:32> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-30 09:28:32> FileDownloader: Downloading url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64
+2018-01-30 09:28:33> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-30 09:28:33> CheckForUpdateImpl: Download resulted in WebException (returning blank release list): System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+2018-01-30 09:28:33> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-30 09:28:33> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-30 09:28:33> FileDownloader: Downloading url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64
+2018-01-30 09:28:33> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-30 09:28:33> CheckForUpdateImpl: Download resulted in WebException (returning blank release list): System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+2018-01-30 09:28:33> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-30 09:28:33> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-30 09:28:33> FileDownloader: Downloading url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64
+2018-01-30 09:28:33> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-30 09:28:33> CheckForUpdateImpl: Download resulted in WebException (returning blank release list): System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+2018-01-30 09:28:33> FileDownloader: Downloading url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64
+2018-01-30 09:28:33> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/RELEASES?version=1.23.3&id=atom&localVersion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-30 09:28:33> FileDownloader: Downloading url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64
+2018-01-30 09:28:33> IEnableLogger: Failed to download url: https://atom.io/api/updates-x64/releases?version=1.23.3&id=atom&localversion=1.23.3&arch=amd64: System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+2018-01-30 09:28:33> CheckForUpdateImpl: Download resulted in WebException (returning blank release list): System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+2018-01-30 09:28:33> Unhandled exception: System.AggregateException: Mindestens ein Fehler ist aufgetreten. ---> System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Update.Program.<Download>d__7.MoveNext()
+   --- Ende der internen Ausnahmestapelüberwachung ---
+   bei System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   bei System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   bei System.Threading.Tasks.Task`1.get_Result()
+   bei Squirrel.Update.Program.executeCommandLine(String[] args)
+   bei Squirrel.Update.Program.main(String[] args)
+---> (Interne Ausnahme #0) System.Net.WebException: Der Remotename konnte nicht aufgelöst werden: 'atom.io'
+   bei System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   bei System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   bei System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   bei Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   bei Squirrel.Update.Program.<Download>d__7.MoveNext()<---
+
+��

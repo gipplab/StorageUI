@@ -1,0 +1,15 @@
+{
+  "_id": "{{id}}",
+  "title": "{{title}}",
+  "abstract": "{{abstract}}",
+  "tags": "{{tags}}",
+  "authors": "{{authors}}",
+  "owner": "{{owner}}",
+  "ipfsAddress": "{{ipfsAddress}}",
+  "metadata": {
+    "originalName": "{{originalName}}",
+    "encoding": "{{encoding}}",
+    "mimetype": "{{mimetype}}",
+    "sha256": "{{sha256}}"
+  }
+}

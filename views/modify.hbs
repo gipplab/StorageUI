@@ -1,0 +1,352 @@
+<div class="container-fluid">
+
+    {{!--Articles--}}
+    <div class="container">
+        {{# if articles}}
+            <h3>Articles</h3>
+
+
+        <table class="table table-hover">
+            <thead>
+            <td></td>
+            <th>TITLE</th>
+            <th>TAGS</th>
+            <th>AUTHORS</th>
+            </thead>
+
+            {{# each articles }}
+                <tbody>
+                <tr data-toggle="collapse" data-target="#accordion{{@index}}" class="clickable">
+                    <td>
+                        <button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span>
+                        </button>
+                    </td>
+                    <td>{{this.title}}</td>
+                    <td>{{this.tags}}</td>
+                    <td>{{this.authors}}</td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div id="accordion{{@index}}" class="collapse">
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">Abstract</div>
+                                <div class="panel-body">
+                                    {{this.abstract}}
+                                </div>
+
+
+                                <div class="panel-heading">IPFS Address</div>
+                                <div class="panel-body">
+                                    <a href="https://ipfs.io/ipfs/{{this.ipfsAddress}}" target="_blank">https://ipfs.io/ipfs/{{this.ipfsAddress}}</a>
+                                </div>
+
+                                <div class="panel-heading">Download</div>
+                                <div class="panel-body">
+                                    <a class="btn btn-info" role="button"
+                                       href="http://192.52.3.143:3000/search/download/{{this.ipfsAddress}}/{{this.metadata.originalName}}">
+                                        Download original File
+                                    </a>
+                                    {{# if revisions}}
+                                        {{# each revisions}}
+                                            <a class="btn btn-info" role="button"
+                                               href="http://192.52.3.143:3000/search/download/{{this}}/rev_{{@index}}_{{../metadata.originalName}}">
+                                                Download revision {{@index}}
+                                            </a>
+                                        {{/each}}
+                                    {{/if}}
+                                </div>
+
+                                <div class="panel-heading">Metadata</div>
+                                <div class="panel-body">
+                                    <table class="table">
+                                        <tr>
+                                            <th>Original Name:</th>
+                                            <td>{{this.metadata.originalName}}</td>
+                                            <th colspan="2"><a target="_blank"
+                                                               href="https://originstamp.org/s/{{this.metadata.sha256}}">
+                                                Link to originstamp.org</a></th>
+                                        </tr>
+                                        <tr>
+                                            <th>SHA-256:</th>
+                                            <td colspan="3">{{this.metadata.sha256}}</td>
+                                        </tr>
+
+                                    </table>
+                                </div>
+
+                                {{!--dataasets--}}
+                                {{# if this.filesets}}
+                                    <div class="panel-heading">Datasets</div>
+                                    <div class="panel-body">
+                                        <table class="table table-hover">
+                                            <thead>
+                                            <th></th>
+                                            <th>TITLE</th>
+                                            <th>TAGS</th>
+                                            <th>Download</th>
+                                            </thead>
+                                            {{# each this.filesets}}
+                                                <tbody>
+                                                <tr data-toggle="collapse" data-target="#accordionsets{{@index}}"
+                                                    class="clickable">
+                                                    <td>
+                                                        <button class="btn btn-default btn-xs"><span
+                                                                class="glyphicon glyphicon-eye-open"></span></button>
+                                                    </td>
+                                                    <td>{{this.title}}</td>
+                                                    <td>{{this.tags}}</td>
+                                                    <td>
+                                                        <a class="btn btn-info" role="button"
+                                                           href="http://192.52.3.143:3000/search/download/{{this.ipfsAddress}}/{{this.metadata.originalName}}">
+                                                            Download Dataset
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <td colspan="4">
+                                                    <div id="accordionsets{{@index}}" class="collapse">
+                                                        <table class="table">
+                                                            <tr>
+                                                                <th>Abstract:</th>
+                                                                <td>{{this.abstract}}</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Original Name:</th>
+                                                                <td>{{this.metadata.originalName}}</td>
+                                                            </tr>
+                                                        </table>
+
+                                                    </div>
+                                                </td>
+                                                </tbody>
+                                            {{/each}}
+                                        </table>
+                                    </div>
+                                {{/if}}
+
+                                <div class="panel-heading">Modify</div>
+                                <div class="panel-body">
+                                    <button class="btn btn-info clickable" data-toggle="collapse"
+                                            data-target="#accordionmod{{@index}}">Click to modify
+                                    </button>
+                                    Leave fields as they are if you don't want to modify them.
+
+                                    <div id="accordionmod{{@index}}" class="collapse">
+
+                                        <form method="post" enctype="multipart/form-data"
+                                              action="/modify/modifyArticle">
+
+                                            {{!--added for internal search--}}
+                                            <input name="sha256" style="visibility: hidden"
+                                                   value="{{this.metadata.sha256}}"></input>
+
+                                            {{!--Title--}}
+                                            <div class="form-group">
+                                                <label for="exampleFormControlTextarea2">Name of the main
+                                                    publication</label>
+                                                <textarea name="title" class="form-control" value="{{this.title}}"
+                                                          id="exampleFormControlTextarea2"
+                                                          rows="1">{{this.title}}</textarea>
+                                            </div>
+
+                                            {{!--Abstract--}}
+                                            <div class="form-group">
+                                                <label for="exampleFormControlTextarea1">Abstract</label>
+                                                <textarea name="abstract" class="form-control"
+                                                          value="{{this.abstract}}"
+                                                          id="exampleFormControlTextarea1"
+                                                          rows="3">{{this.abstract}}</textarea>
+                                            </div>
+
+                                            {{!--Authors--}}
+                                            <div class="form-group">
+                                                <label class="control-label">Authors</label>
+                                                <div>
+                                                    <input type="text" name="authors" class="form-control"
+                                                           value="{{this.authors}}" data-role="tagsinput"/>
+                                                </div>
+                                            </div>
+
+                                            {{!--Tags--}}
+                                            <div class="form-group">
+                                                <label class="control-label">Tags</label>
+                                                <div>
+                                                    <input type="text" name="tags" class="form-control"
+                                                           value="{{this.tags}}" data-role="tagsinput"/>
+                                                </div>
+                                            </div>
+
+                                            {{!--upload revision--}}
+                                            <div class="form-group">
+                                                <label for="uploadField">Add revision</label>
+                                                <input type="file" name="upl" class="form-control-file"
+                                                       id="uploadField">
+                                            </div>
+
+                                            {{!--button--}}
+                                            <div class="form-group">
+                                                <!-- Button -->
+                                                <div class="col-md-offset-5 col-md-9">
+                                                    <button id="btn-signup" type="submit button"
+                                                            class="btn btn-warning">
+                                                        &nbsp Modify
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            {{/each}}
+        {{/if}}
+
+
+        {{# if datasets}}
+            <thead>
+            <tr>
+                <td colspan="4"><h3>Datasets</h3></td>
+            </tr>
+            </thead>
+
+            <thead>
+            <th></th>
+            <th>TITLE</th>
+            <th>TAGS</th>
+            <th>AUTHORS</th>
+            </thead>
+
+            {{# each datasets }}
+                <tbody>
+                <tr data-toggle="collapse" data-target="#accordiondat{{@index}}" class="clickable">
+                    <td>
+                        <button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span>
+                        </button>
+                    </td>
+                    <td>{{this.title}}</td>
+                    <td>{{this.tags}}</td>
+                    <td>{{this.authors}}</td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div id="accordiondat{{@index}}" class="collapse">
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">Abstract</div>
+                                <div class="panel-body">
+                                    {{this.abstract}}
+                                </div>
+
+
+                                <div class="panel-heading">IPFS Address</div>
+                                <div class="panel-body">
+                                    <a href="https://ipfs.io/ipfs/{{this.ipfsAddress}}" target="_blank">https://ipfs.io/ipfs/{{this.ipfsAddress}}</a>
+                                </div>
+
+                                <div class="panel-heading">Download</div>
+                                <div class="panel-body">
+                                    <a class="btn btn-info" role="button"
+                                       href="http://192.52.3.143:3000/search/download/{{this.ipfsAddress}}/{{this.metadata.originalName}}">
+                                        Download original File
+                                    </a>
+                                </div>
+
+                                <div class="panel-heading">Metadata</div>
+                                <div class="panel-body">
+                                    <table class="table">
+                                        <tr>
+                                            <th>Original Name:</th>
+                                            <td>{{this.metadata.originalName}}</td>
+                                            <th colspan="2"><a target="_blank"
+                                                               href="https://originstamp.org/s/{{this.metadata.sha256}}">
+                                                Link to originstamp.org</a></th>
+                                        </tr>
+                                        <tr>
+                                            <th>SHA-256:</th>
+                                            <td colspan="3">{{this.metadata.sha256}}</td>
+                                            <th></th>
+                                            <td></td>
+                                        </tr>
+
+                                    </table>
+                                </div>
+
+                                <div class="panel-heading">Modify</div>
+                                <div class="panel-body">
+                                    <button class="btn btn-info clickable" data-toggle="collapse"
+                                            data-target="#accordionmoddat{{@index}}">Click to modify
+                                    </button>
+                                    Leave fields as they are if you don't want to modify them.
+
+                                    <div id="accordionmoddat{{@index}}" class="collapse">
+                                        {{!--enctype="multipart/form-data"--}}
+                                        <form method="post"
+                                              action="/modify/modifyDataset">
+
+                                            {{!--needed for dataset identification--}}
+                                            <input name="sha256" style="visibility: hidden"
+                                                   value="{{this.metadata.sha256}}"></input>
+
+                                            {{!--Title--}}
+                                            <div class="form-group">
+                                                <label for="exampleFormControlTextarea2">Title</label>
+                                                <textarea name="title" class="form-control" value="{{this.title}}"
+                                                          id="exampleFormControlTextarea2"
+                                                          rows="1">{{this.title}}</textarea>
+                                            </div>
+
+                                            {{!--Abstract--}}
+                                            <div class="form-group">
+                                                <label for="exampleFormControlTextarea1">Abstract</label>
+                                                <textarea name="abstract" class="form-control"
+                                                          value="{{this.abstract}}"
+                                                          id="exampleFormControlTextarea1"
+                                                          rows="3">{{this.abstract}}</textarea>
+                                            </div>
+
+                                            {{!--Authors--}}
+                                            <div class="form-group">
+                                                <label class="control-label">Authors</label>
+                                                <div>
+                                                    <input type="text" name="authors" class="form-control"
+                                                           value="{{this.authors}}" data-role="tagsinput"/>
+                                                </div>
+                                            </div>
+
+                                            {{!--Tags--}}
+                                            <div class="form-group">
+                                                <label class="control-label">Tags</label>
+                                                <div>
+                                                    <input type="text" name="tags" class="form-control"
+                                                           value="{{this.tags}}" data-role="tagsinput"/>
+                                                </div>
+                                            </div>
+
+                                            {{!--button--}}
+                                            <div class="form-group">
+                                                <!-- Button -->
+                                                <div class="col-md-offset-5 col-md-9">
+                                                    <button id="btn-signup" type="submit button"
+                                                            class="btn btn-warning">
+                                                        &nbsp Modify
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            {{/each}}
+
+        {{/if}}
+        </table>
+    </div>
+
+</div>

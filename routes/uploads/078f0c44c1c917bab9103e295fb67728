@@ -1,0 +1,61 @@
+Add-in Express Loader Log File: 01/15/2018 18:24:55
+
+Startup directory: C:\Program Files (x86)\Docear4Word\
+Loader version: 6.4.3056.0
+Operating System: Microsoft  (build 16299), 64-bit
+Process Owner: Administrator
+Command Line: "C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE" 
+Run 'As Administrator': No
+Process Elevated: No
+Integrity Level: Medium
+UAC (User Account Control): On
+------------------------------------------------------------------------
+18:24:55 3632 18292 Start.
+18:24:55 3632 18292 Reading the registry key 'HKEY_CLASSES_ROOT\CLSID\{34F82078-360B-4682-8275-0D9B0B641CBD}'
+18:24:55 3632 18292 Success. The registry key 'HKEY_CLASSES_ROOT\CLSID\{34F82078-360B-4682-8275-0D9B0B641CBD}' is closed.
+18:24:55 3632 18292 Converting the '{4BA250A6-8BCA-46A6-982A-F340081187C3}' CLSID from string.
+18:24:55 3632 18292 Success.
+18:24:55 3632 18292 Attempting to get the class object by the '{4BA250A6-8BCA-46A6-982A-F340081187C3}' CLSID.
+18:24:55 3632 18292 Success.
+18:24:55 3632 18292 Creating a new instance of the add-in loader.
+18:24:55 3632 18292 Loading mscoree.dll
+18:24:55 3632 18292 Success.
+18:24:55 3632 18292 Loading the configuration from the system registry.
+18:24:55 3632 18292 Getting the latest CLR version.
+18:24:55 3632 18292 The latest CLR version is 'v4.0.30319'.
+18:24:55 3632 18292 The configuration has been loaded successfully.
+18:24:55 3632 18292     Runtime version: v2.0.50727.
+18:24:55 3632 18292     Assembly name: Docear4Word, PublicKeyToken=839F1E8926B2A1FF.
+18:24:55 3632 18292     Class name: Docear4Word.AddinModule.
+18:24:55 3632 18292     Registry key: CLSID\{34F82078-360B-4682-8275-0D9B0B641CBD}.
+18:24:55 3632 18292 Attempting to create a new instance of the managed add-in class: CLR - v2.0.50727
+18:24:55 3632 18292 Loading CLR: v2.0.50727.
+18:24:55 3632 18292 Calling CLRCreateInstance method.
+18:24:55 3632 18292 Success.
+18:24:55 3632 18292 Calling GetRuntime method.
+18:24:55 3632 18292 Success.
+18:24:55 3632 18292 Calling GetInterface method.
+18:24:55 3632 18292 Calling GetInterface method for the CorRuntimeHost interface.
+18:24:55 3632 18292 Success.
+18:24:55 3632 18292 Starting CLR...
+18:24:55 3632 18292 Success.
+18:24:55 3632 18292 The CLR v2.0.50727 has been initialized successfully.
+18:24:55 3632 18292 Creating a new domain setup.
+18:24:55 3632 18292 Success.
+18:24:55 3632 18292 Getting the add-in directory.
+18:24:55 3632 18292 Success. The directory is 'C:\Program Files (x86)\Docear4Word\'
+18:24:55 3632 18292 The configuration file is 'C:\Program Files (x86)\Docear4Word\App.config'
+18:24:55 3632 18292 The 'shadow copy' is enabled.
+18:24:55 3632 18292 Creating a new application domain.
+18:24:55 3632 18292 Success.
+18:24:56 3632 18292 Unwrapping the managed class.
+18:24:56 3632 18292 Success.
+18:24:56 3632 18292 Querying the add-in extensibility.
+18:24:56 3632 18292 Querying the custom task panes.
+18:24:56 3632 18292 Querying the ribbon extensibility.
+18:24:56 3632 18292 Success.
+18:24:56 3632 18292 Querying the form regions.
+18:24:56 3632 18292 Success.
+18:24:56 3632 18292 Getting the dispid of the 'Dispose' method.
+18:24:56 3632 18292 Success.
+18:24:56 3632 18292 The managed add-in class has been created successfully.
