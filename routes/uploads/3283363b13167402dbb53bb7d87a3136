@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings version="5.7.0.0">
+  <WordEngineSettings_CitaviExecutablePath_1>C:\Program Files (x86)\Citavi 5\bin\Citavi.exe</WordEngineSettings_CitaviExecutablePath_1>
+  <WordEngineSettings_DefaultCitationStyleId_1>641939db-4e24-44a6-9674-25e5952a2a55</WordEngineSettings_DefaultCitationStyleId_1>
+  <WordEngineSettings_PublicationPaneVisible_1>True</WordEngineSettings_PublicationPaneVisible_1>
+  <WordEngineSettings_CitaviEntityTabPageSplitterDistance_1>377</WordEngineSettings_CitaviEntityTabPageSplitterDistance_1>
+  <WordEngineSettings_PlaceholderPaneSize_1>384, 632</WordEngineSettings_PlaceholderPaneSize_1>
+  <WordEngineSettings_PlaceholderTabPageSplitterDistance_1>316</WordEngineSettings_PlaceholderTabPageSplitterDistance_1>
+</Settings>
