@@ -1,3 +1,6 @@
 node_modules/*
 orbitdb/*
-
+uploads/*
+orbitTest/*
+ipfs_repo/*
+forever/*
